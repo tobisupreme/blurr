@@ -19,20 +19,31 @@
     </div>
     <section class="message-wrap">
       <form id="message-form">
-        <div class="input-group">
-          <label for="message">Message:</label>
-          <textarea name="message" id="message"></textarea>
-        </div>
-        <div class="input-group">
-          <label for="word-to-blurr">Word(s) to Blurr:</label>
-          <input name="word-to-blurr" id="word-to-blurr">
+        <div class="input-group-wrap">
+          <div class="input-group">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <div class="input-group">
+            <label for="word-to-blurr">Word(s) to Blurr:</label>
+            <input name="word-to-blurr" id="word-to-blurr">
+          </div>
+          <div class="input-group">
+            <label for="blurr-character">Choose Character</label>
+            <select name="blurr-character" id="blurr-character">
+              <option value="#">#</option>
+              <option value="*">*</option>
+              <option value="^">^</option>
+              <option value="%">%</option>
+            </select>
+          </div>
         </div>
         <button type="submit">Blurr</button>
       </form>
     </section>
     <section class="show-message-wrap">
       <div class="show-message">
-
+        This is message. It has been redacted/Blurr-ed. Let us get going!
       </div>
     </section>
   </div>

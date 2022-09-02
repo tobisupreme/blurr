@@ -46,3 +46,11 @@ header {
   text-align: center;
   padding: 2.2rem;
 }
+
+@media (min-width: 700px) {
+  .input-group-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
